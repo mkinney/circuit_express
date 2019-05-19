@@ -1,4 +1,6 @@
 # microphone_pixels_buttons.py
+#  use buttons to adjust sound sensitivity
+#  use switch to change from white/blue
 #
 # The MIT License (MIT)
 #
@@ -39,7 +41,7 @@ SCALE_EXPONENT = math.pow(10, CURVE * -0.1)
 
 # white
 #PEAK_COLOR = (255, 255, 255)
-#
+# blue
 PEAK_COLOR = (0, 0, 255)
 NUM_PIXELS = 10
 
@@ -152,3 +154,10 @@ while True:
     if cpx.button_b:
         input_ceiling += input_adjustment
         print("input_ceiling:{}".format(input_ceiling))
+
+    if cpx.switch:
+        # white
+        PEAK_COLOR = (255, 255, 255)
+    else:
+        # blue
+        PEAK_COLOR = (0, 0, 255)
