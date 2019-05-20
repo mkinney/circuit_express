@@ -8,7 +8,7 @@ import neopixel
 from adafruit_circuitplayground.express import cpx
 
 def was_movement(x, y, z, last_x, last_y, last_z):
-    delta = 0.6
+    delta = 0.45
     retval = False
     try:
         tmpx = abs((x - last_x) / last_x)
@@ -18,7 +18,9 @@ def was_movement(x, y, z, last_x, last_y, last_z):
         return retval
     #print("x:{} y:{} z:{} last_x:{} last_y:{} last_z:{}".format(x, y, z, last_x, last_y, last_z))
     #print("tmpx:{} tmpy:{} tmpz:{}".format(tmpx, tmpy, tmpz))
-    if tmpx > delta or tmpy > delta or tmpz > delta:
+    #if tmpx > delta or tmpy > delta or tmpz > delta:
+    #   retval = True
+    if tmpy > delta:
         retval = True
     return retval
 
