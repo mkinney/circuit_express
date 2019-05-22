@@ -26,24 +26,35 @@ Note: I seem to have to reboot mac every time I want to get the device in the "g
 
 ## Sample programs
 
-# loud_leds.js (for high school marching band in parade) - It is "loud sound"-based. The LEDs all light up blue when a loud enough sound is heard. There are 2 buttons on that disc, so one increases the sensitivity of the loudness. The other button decreases the sensitivity. If that ends up not working out, we can slide the (really small) switch to have the lights always on bright blue. (without any sound detection) 
+# loud_leds.js
+(for high school marching band in parade) - It is "loud sound"-based. The LEDs all light up blue when a loud enough sound is heard. There are 2 buttons on that disc, so one increases the sensitivity of the loudness. The other button decreases the sensitivity. If that ends up not working out, we can slide the (really small) switch to have the lights always on bright blue. (without any sound detection) 
 
-# movement_based_lights.py - tried to limit movement to just up/down and have lights light up when there was movement. (prototype for parade)
+# movement_based_lights.py
+tried to limit movement to just up/down and have lights light up when there was movement. (prototype for parade)
 
-# microphone_pixels_buttons.py - tried to use the microphone to detect "loudness" but was not successful (prototype for parade); used buttons for sensitivity
+# microphone_pixels_buttons.py
+tried to use the microphone to detect "loudness" but was not successful (prototype for parade); used buttons for sensitivity
 
-# microphone_and_pixels.py - tried to use the microphone to detect "loudness" but was not successful (prototype for parade)
+# microphone_and_pixels.py
+tried to use the microphone to detect "loudness" but was not successful (prototype for parade)
 
-# infared_buttons.py - detect each button on mini remote control (see https://www.adafruit.com/product/389 ); Note: You need to copy the lib/adafruit_irremote.mpy file (or download latest from https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/releases)
+# infared_buttons.py
+detect each button on mini remote control (see https://www.adafruit.com/product/389 ); Note: You need to copy the lib/adafruit_irremote.mpy file (or download latest from https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/releases)
 
-# big_pixel.py - experiment with external pixel strip
+# big_pixel.py
+experiment with external pixel strip
 
-# pixels_rainbow.py - experiment with pixels
+# pixels_rainbow.py
+experiment with pixels
 
-# single_blue_pixel.py - show how to light a single pixel blue
+# single_blue_pixel.py
+show how to light a single pixel blue
 
-# demo.py - demonstrate various inputs
+# demo.py
+demonstrate various inputs
 
-# laugh.wav - sample file to play wave from demo.py
+# laugh.wav
+sample file to play wave from demo.py
 
-# rimshot.wav - sample file to play wave from demo.py
+# rimshot.wav
+sample file to play wave from demo.py
