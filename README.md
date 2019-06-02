@@ -29,6 +29,12 @@ Note: I seem to have to reboot mac every time I want to get the device in the "g
 # loud_leds.js
 (for high school marching band in parade) - It is "loud sound"-based. The LEDs all light up blue when a loud enough sound is heard. There are 2 buttons on that disc, so one increases the sensitivity of the loudness. The other button decreases the sensitivity. If that ends up not working out, we can slide the (really small) switch to have the lights always on bright blue. (without any sound detection) 
 
+used: https://www.adafruit.com/product/3517 and one of https://www.adafruit.com/product/3811 or https://www.adafruit.com/product/3812
+
+soldered instead of using the alligator clips
+
+check out the videos in the folder loud_leds_in_action
+
 # movement_based_lights.py
 tried to limit movement to just up/down and have lights light up when there was movement. (prototype for parade)
 
